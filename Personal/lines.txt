@@ -1,0 +1,113 @@
+BLOCOS CAIXA TEXTO - USANDO CORES
+
+<h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+
+
+<h2>Specify colors using HEX values</h2>
+
+<h2 style="background-color:#ff0000;">#ff0000</h2>
+<h2 style="background-color:#0000ff;">#0000ff</h2>
+<h2 style="background-color:#3cb371;">#3cb371</h2>
+<h2 style="background-color:#ee82ee;">#ee82ee</h2>
+<h2 style="background-color:#ffa500;">#ffa500</h2>
+<h2 style="background-color:#6a5acd;">#6a5acd</h2>
+
+
+/* The background-attachment Property */    
+
+<head>
+<style>
+body {
+  background-image: url("Ky.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+</style>
+</head>
+<body>
+
+/* The border-style Property */   
+<head>
+<style>
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+</style>
+</head>
+<body>
+
+<h2>The border-style Property</h2>
+<p>This property specifies what kind of border to display:</p>
+
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">No border.</p>
+<p class="hidden">A hidden border.</p>
+<p class="mix">A mixed border.</p>
+
+</body>
+
+
+/* DIV example of picture total width */ 
+
+<head>
+<style>
+div {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+
+<h2>Calculate the total width:</h2>
+
+<img src="klematis4_big.jpg" width="350" height="263" alt="Klematis">
+<div>The picture above is 350px wide. The total width of this element is also 350px.</div>
+
+</body>
+
+/* CSS Outline - Diferent borders */ 
+
+<head>
+<style>
+p {
+  border: 2px solid black;
+  outline: #4CAF50 solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Outline</h2>
+<p>This element has a 2px black border and a green outline with a width of 10px.</p>
+
+</body>
