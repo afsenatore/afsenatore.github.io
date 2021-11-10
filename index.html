@@ -3,21 +3,21 @@
     <head>
             <link rel="stylesheet" href="mystyle.css">
     </head>
-    <style>
+    <style>  
             body {
-              background-image: url("img_ky.png");
+            
+            background-image: url("img_ky.png");
               background-repeat: no-repeat;
               background-position: left top;
               margin-right: 170px;
               background-attachment: 
-            }
+            
             </style>
-            </head>
-            <body>
+           
          <br>  
          <br>
          <br>      
-         <h1>  Olá Teste! </h1>
+         <h1> Hello Page! </h1>
          <br>
          <br>
 
@@ -29,32 +29,10 @@
             <p class="ridge"><b>Usage Notes</b></p>
 
             <p> Just adding a new line to test GIT</p>
-           
-               The increment by which you can increase storage is determined by the sizes of the INITIAL and RESERVED storage allocations in the image profile for the logical partition. The increment size is a power of two in megabytes and is not less than 1/512th of the larger of the two allocations. The storage increment size is indicated by the value in the INC=value response to the QUERY STORAGE command. The storage size or additional storage value you specify on the SET STORAGE command must be a multiple of this increment size.
-                    The additional storage is typically obtained from standby storage.  
-                    
             
-    
 
-            <br>
-         Standby storage is a calculated value based on the amount of installed storage that is not currently claimed by active logical partitions and the RESERVED storage specified for this partition. However, if the current online storage is less than the amount of storage configured for this partition (INITIAL), the remaining configured storage is also available. z/VM could be using less storage than configured if the STORE= IPL parameter was used on the Stand-Alone Program Loader (SAPL) screen or on the SHUTDOWN REIPL command. Issue the QUERY STORAGE command and see the response for the amount of storage z/VM is currently using (STORAGE=), the amount of storage configured for this logical partition (CONFIGURED=), and the amount of standby storage that is available to be brought online (STANDBY=).
-Manual actions also may be taken, such as deactivating another logical partition or installing more real storage, to provide additional standby storage for the logical partition in which z/VM is running.
+            </html> 
 
-         <p><p> change management procedures suggest that you should avoid simultaneous storage configuration operations. Before issuing the SET STORAGE command:
-Ensure that all other storage reconfigurations have completed. This includes logical partition activation or deactivation, storage configuration actions by any other operating system, and any other SET STORAGE command.
-Issue the QUERY STORAGE command as necessary to ensure that the reported STANDBY= and RESERVED= values are stable.
-Ensure that the desired increase in storage size is available increase <= STANDBY + (CONFIGURED - STORAGE) Only then issue the SET STORAGE command.</p></p>
 
-            
-            
-        
-             
-    <h1 style="background-color:LightGray;">Mais um jeito de usar cores e caixa de texto</h1>        
-    <div>Ganhar experiência com esse CSS pode render bons frutos os 
-        sites devem sair mais limpos e cheios de ideias super legais. Vamos tentar.  
-    </div>
 
-    <h2 style="background-color:#040252da;">Este é um bom modelo de uso da caixa de cores</h2>
-
-    </body>
-</html>
+         
