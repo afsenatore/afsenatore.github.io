@@ -1,0 +1,19 @@
+No GitHub
+Settings
+Developer Settings
+Personal access tokens
+Generate new token
+Adicionar uma pequena nota (note) sobre o token a ser gerado
+Escolher a data de expiração do token (opcional)
+Importante!
+Em "select scopes", selecione todas as atribuições que o token deve conter. Ex: controle total sobre repositórios privados.
+Após isso, confirme e salve o token em um local seguro.
+Extras
+Na etapa autenticação, o token será usado como senha
+Forma correta para set-url
+Exemplo
+git remote set-url origin "https://(username)@github.com/(username)/(nome do repositório).git"
+
+TOKEN:
+
+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
